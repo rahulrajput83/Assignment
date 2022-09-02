@@ -1,5 +1,6 @@
 import React from 'react'
 
+/* RadioCard Component to show input radio elements. */
 function RadioCard(props) {
     const handleRadio = (e) => {
         props.setValue({...props.value, [props.type]: e.target.value})

@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+/* Select Component to show select elements. */
 function Select(props) {
     const year = (new Date()).getFullYear();
     const years = Array.from(new Array(10), (val, index) => index + year);

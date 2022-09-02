@@ -1,5 +1,6 @@
 import React from 'react'
 
+/* Input Component to show input elements. */
 function Input(props) {
     return (
         <div className='w-full md:px-4 mt-8 flex flex-col'>
